@@ -3,7 +3,12 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - NameOfRoom
+  - NameOfPlayers
+  - StartButton
+  - LeaveButton
+  - NumberOfPlayers
   layers:
   - Default
   - TransparentFX
