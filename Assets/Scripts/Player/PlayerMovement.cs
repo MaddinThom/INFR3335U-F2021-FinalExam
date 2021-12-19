@@ -6,7 +6,7 @@ using Photon.Pun;
 public class PlayerMovement : MonoBehaviour
 {
     public CharacterController controller;
-    public static int playerSpeed = 3;
+    public static int playerSpeed = 5;
     private float gravityValue = -3.0f;
     private Vector3 playerVelocity;
 
@@ -48,8 +48,8 @@ public class PlayerMovement : MonoBehaviour
     public void CameraControls()
     {
         Vector3 cameraPos = controller.transform.position;
-        cameraPos.y += 3;
-        cameraPos.z -= 5;
+        cameraPos.y += 7;
+        cameraPos.z -= 8;
 
         camTransform.position = cameraPos;
         camTransform.LookAt(controller.transform.position);

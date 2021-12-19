@@ -9,6 +9,8 @@ TagManager:
   - StartButton
   - LeaveButton
   - NumberOfPlayers
+  - Movement
+  - CameraJoystick
   layers:
   - Default
   - TransparentFX
